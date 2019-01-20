@@ -12,7 +12,7 @@ import android.widget.Toast
 import com.squareup.picasso.Picasso
 
 
-fun Int.isNatural() = this >= 0
+
 
 fun Activity.toast(message: CharSequence, duration: Int = Toast.LENGTH_SHORT) = Toast.makeText(this, message, duration).show()
 
